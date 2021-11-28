@@ -92,7 +92,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>&#129386 Login Comida Facilita</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
      <!-- Required meta tags -->
      <meta charset="utf-8">
@@ -120,6 +120,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
+
 <body>
   
 
@@ -355,6 +356,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             <input type="submit" class="btn btn-primary" value="Ingresar">
                         </div>
                         <p>¿No tienes una cuenta? <a href="register.php">Regístrate ahora</a>.</p>
+                        <p>¿Olvidaste tu contraseña? <a href="reset-password.php">Reestablecer aquí</a>.</p>
                     </form>
                 </div>  
             </div>
@@ -363,7 +365,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 
                 <div class="card  " style="background-color:#7fffd4;">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="img-fluid" />
+                        <img src="img/Imagen1.png" class="img-fluid" alt="Responsive image"/>
                         <a href="#!">
                         <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                         </a>
@@ -378,6 +380,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
         </div>
     </div>
+
+<div class="d-flex align-items-center justify-content-center text-center" style="height: 74px;"></div>
 
 <!-- Footer -->
 <footer class="bg-success text-center text-white">
