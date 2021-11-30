@@ -111,16 +111,13 @@ if(isset($_POST['signupSubmit'])){
 				$mailContent = 'Estimad@ '.$userDetails['first_name'].', 
 				<br/><br/>Recientemente se envió una solicitud para restablecer una contraseña para su cuenta. Si esto fue un error, simplemente ignore este correo electrónico y no pasará nada.
 				<br/>Para restablecer su contraseña, visite el siguiente enlace: <a href="'.$resetPassLink.'">'.$resetPassLink.'</a>
-				<br/><br/>Saludos,
-                <br/>Para más desarrollos como este vísitame en mi sitio https://www.configuroweb.com, atentamente
-                <br/>Mauricio Sevilla
-                <br/>https://www.linkedin.com/in/mauricio-sevilla/';                ;
+				';                ;
                 
 				//set content-type header for sending HTML email
 				$headers = "MIME-Version: 1.0" . "\r\n";
 				$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 				//additional headers
-				$headers .= 'From: ConfiguroWeb<sender@example.com>' . "\r\n";
+				$headers .= 'From: ComidaFacilita<sender@example.com>' . "\r\n";
 				//send email
 				mail($to,$subject,$mailContent,$headers);
 				
