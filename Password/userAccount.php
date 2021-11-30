@@ -98,7 +98,7 @@ if(isset($_POST['signupSubmit'])){
 			$update = $user->update($data, $conditions);
 			
 			if($update){
-				$resetPassLink = 'http://localhost/olvidopass/resetPassword.php?fp_code='.$uniqidStr;
+				$resetPassLink = 'http://localhost/login/Password/resetPassword.php?fp_code='.$uniqidStr;
 				
 				//get user details
 				$con['where'] = array('email'=>$_POST['email']);
